@@ -13,7 +13,7 @@ Oi<!doctype html>
                 <div class="col text-center">
                     <h1>Bem-vindo ao Quiz!</h1>
                     <p class="lead">Teste seus conhecimentos com {{$total_perguntas}} perguntas desafiadoras.</p>
-                    <a href="#" class="btn btn-primary btn-lg">Iniciar Quiz</a>
+                    <a href="{{ route('responder') }}" class="btn btn-primary btn-lg">Iniciar Quiz</a>
                 </div>
             </div>
         </div>
