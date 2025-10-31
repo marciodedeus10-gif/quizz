@@ -15,56 +15,56 @@ class PerguntasSeeder extends Seeder
     public function run(): void
     {
         Pergunta::create([
-            'texto' => 'Qual é a capital da França?',
-            'opcao_a' => 'Berlim',
-            'opcao_b' => 'Madrid',
-            'opcao_c' => 'Paris',
-            'opcao_d' => 'Roma',
-            'resposta_correta' => 'C',
+            'texto' => 'Qual é o dinheiro justo?',
+            'opcao_a' => 'USDT',
+            'opcao_b' => 'BTC',
+            'opcao_c' => 'RMB',
+            'opcao_d' => 'BRL',
+            'resposta_correta' => 'a',
             'imagem' => null,
             'pontos' => 1,
         ]);
 
         Pergunta::create([
-            'texto' => 'Qual é o maior planeta do nosso sistema solar?',
-            'opcao_a' => 'Terra',
-            'opcao_b' => 'Júpiter',
-            'opcao_c' => 'Saturno',
-            'opcao_d' => 'Marte',
+            'texto' => 'Qual é o com a meior reserva florestal do mundo?',
+            'opcao_a' => 'Brasil',
+            'opcao_b' => 'Rússia',
+            'opcao_c' => 'Suriname',
+            'opcao_d' => 'Estados Unidos',
             'resposta_correta' => 'B',
             'imagem' => null,
             'pontos' => 1,
         ]);
 
         Pergunta::create([
-            'texto' => 'Quem escreveu "Dom Quixote"?',
-            'opcao_a' => 'Miguel de Cervantes',
-            'opcao_b' => 'William Shakespeare',
-            'opcao_c' => 'Gabriel García Márquez',
-            'opcao_d' => 'Jorge Luis Borges',
+            'texto' => 'Qual país com maiora reserva de floresta nativa do mundo?',
+            'opcao_a' => 'Suriame',
+            'opcao_b' => 'Canadá',
+            'opcao_c' => 'Paris',
+            'opcao_d' => 'Brasil',
             'resposta_correta' => 'A',
             'imagem' => null,
             'pontos' => 1,
         ]);
 
         Pergunta::create([
-            'texto' => 'Qual é a fórmula química da água?',
-            'opcao_a' => 'CO2',
-            'opcao_b' => 'H2O',
-            'opcao_c' => 'O2',
-            'opcao_d' => 'NaCl',
-            'resposta_correta' => 'B',
+            'texto' => 'De Qual País partir o ataque hacker que roubo milhões de dolares americanos',
+            'opcao_a' => 'Estados Unidos',
+            'opcao_b' => 'Rússia',
+            'opcao_c' => 'Coreia do Norte',
+            'opcao_d' => 'França',
+            'resposta_correta' => 'C',
             'imagem' => null,
             'pontos' => 1,
         ]);
 
         Pergunta::create([
-            'texto' => 'Em que ano o homem pisou na Lua pela primeira vez?',
-            'opcao_a' => '1965',
-            'opcao_b' => '1969',
-            'opcao_c' => '1972',
-            'opcao_d' => '1959',
-            'resposta_correta' => 'B',
+            'texto' => 'Criminosos fizeram armas de autissima qualidade de qual País eles eram',
+            'opcao_a' => 'Brasil',
+            'opcao_b' => 'Coreia do Sul',
+            'opcao_c' => 'Coreia do Norte',
+            'opcao_d' => 'Venezuela',
+            'resposta_correta' => 'A',
             'imagem' => null,
             'pontos' => 1,
         ]);
