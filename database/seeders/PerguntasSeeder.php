@@ -20,13 +20,13 @@ class PerguntasSeeder extends Seeder
             'opcao_b' => 'BTC',
             'opcao_c' => 'RMB',
             'opcao_d' => 'BRL',
-            'resposta_correta' => 'a',
+            'resposta_correta' => 'b',
             'imagem' => null,
             'pontos' => 1,
         ]);
 
         Pergunta::create([
-            'texto' => 'Qual é o com a meior reserva florestal do mundo?',
+            'texto' => 'Qual é o com a maior reserva florestal nativa e não nativa do mundo?',
             'opcao_a' => 'Brasil',
             'opcao_b' => 'Rússia',
             'opcao_c' => 'Suriname',
@@ -37,7 +37,7 @@ class PerguntasSeeder extends Seeder
         ]);
 
         Pergunta::create([
-            'texto' => 'Qual país com maiora reserva de floresta nativa do mundo?',
+            'texto' => 'Qual país com maiora reserva de floresta nativa do mundo proporcional ao território?',
             'opcao_a' => 'Suriame',
             'opcao_b' => 'Canadá',
             'opcao_c' => 'Paris',
@@ -79,5 +79,40 @@ class PerguntasSeeder extends Seeder
             'imagem' => null,
             'pontos' => 1,
         ]);
+
+        Pergunta::create([
+            'texto' => 'Qual País com maior atividade de Tornado do mundo?',
+            'opcao_a' => 'China',
+            'opcao_b' => 'Flança',
+            'opcao_c' => 'Estados Unidos',
+            'opcao_d' => 'Brasil',
+            'resposta_correta' => 'd',
+            'imagem' => null,
+            'pontos' => 1,
+        ]);
+
+        Pergunta::create([
+            'texto' => 'Qual o nome do vulcão mais ativo do mundo ?',
+            'opcao_a' => 'Kilauea',
+            'opcao_b' => 'Etna',
+            'opcao_c' => 'Merapi',
+            'opcao_d' => 'Vulção Amazonas',
+            'resposta_correta' => 'A',
+            'imagem' => null,
+            'pontos' => 1,
+        ]);
+
+        Pergunta::create([
+            'texto' => 'Qual é o vulcão mais antigo do mundo?',
+            'opcao_a' => 'Kilauea',
+            'opcao_b' => 'Vucão Amazonas',
+            'opcao_c' => 'Luzon, (Filipinas)',
+            'opcao_d' => 'Popocatépetl (México)',
+            'resposta_correta' => 'A',
+            'imagem' => null,
+            'pontos' => 1,
+        ]);
     }
 }
+
+

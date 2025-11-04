@@ -5,6 +5,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Quizz</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+        <style>
+            body {
+                /* Imagem de fundo */
+                background-image: url('image/inteligencia-artificial-bitcoin.jpg.webp');
+                background-size: cover;       /* Cobre toda a tela */
+                background-position: center;  /* Centraliza a imagem */
+                background-repeat: no-repeat; /* Evita repetição */
+                min-height: 100vh;
+            }
+
+            /* Fundo semitransparente para destacar o conteúdo */
+            .container {
+                background-color: rgba(155, 61, 61, 0); /* branco semitransparente */
+                padding: 30px;
+                border-radius: 100px;
+            }
+            .card
+            {
+                background-color: #fefefe00;
+            }
+        </style>
+
     </head>
     <body>
 
