@@ -26,93 +26,105 @@ class PerguntasSeeder extends Seeder
         ]);
 
         Pergunta::create([
-            'texto' => 'Qual é o com a maior reserva florestal nativa e não nativa do mundo?',
-            'opcao_a' => 'Brasil',
-            'opcao_b' => 'Rússia',
-            'opcao_c' => 'Suriname',
-            'opcao_d' => 'Estados Unidos',
+            'texto' => 'Quantos BTC usados para fazer a primeira compra?',
+            'opcao_a' => '11.000',
+            'opcao_b' => '10.000',
+            'opcao_c' => '7.000',
+            'opcao_d' => '5.000',
             'resposta_correta' => 'B',
             'imagem' => null,
             'pontos' => 1,
         ]);
 
         Pergunta::create([
-            'texto' => 'Qual país com maiora reserva de floresta nativa do mundo proporcional ao território?',
-            'opcao_a' => 'Suriame',
-            'opcao_b' => 'Canadá',
-            'opcao_c' => 'Paris',
-            'opcao_d' => 'Brasil',
-            'resposta_correta' => 'A',
-            'imagem' => null,
-            'pontos' => 1,
-        ]);
-
-        Pergunta::create([
-            'texto' => 'De Qual País partir o ataque hacker que roubo milhões de dolares americanos',
-            'opcao_a' => 'Estados Unidos',
-            'opcao_b' => 'Rússia',
-            'opcao_c' => 'Coreia do Norte',
-            'opcao_d' => 'França',
+            'texto' => 'Qual a segunda moeda virtual mais valorizada',
+            'opcao_a' => 'XRP',
+            'opcao_b' => 'SOL',
+            'opcao_c' => 'ETH',
+            'opcao_d' => 'TRUMP',
             'resposta_correta' => 'C',
             'imagem' => null,
             'pontos' => 1,
         ]);
 
         Pergunta::create([
-            'texto' => 'Criminosos fizeram armas de autissima qualidade de qual País eles eram',
-            'opcao_a' => 'Brasil',
-            'opcao_b' => 'Coreia do Sul',
+            'texto' => 'Quem controla o BTC',
+            'opcao_a' => 'Estados Unidos',
+            'opcao_b' => 'Rússia',
             'opcao_c' => 'Coreia do Norte',
-            'opcao_d' => 'Venezuela',
-            'resposta_correta' => 'A',
-            'imagem' => null,
-            'pontos' => 1,
-        ]);
-
-        Pergunta::create([
-            'texto' => 'Qual é o elemento químico com o símbolo "Fe"?',
-            'opcao_a' => 'Ferro',
-            'opcao_b' => 'Flúor',
-            'opcao_c' => 'Fósforo',
-            'opcao_d' => 'Frâncio',
-            'resposta_correta' => 'A',
-            'imagem' => null,
-            'pontos' => 1,
-        ]);
-
-        Pergunta::create([
-            'texto' => 'Qual País com maior atividade de Tornado do mundo?',
-            'opcao_a' => 'China',
-            'opcao_b' => 'Flança',
-            'opcao_c' => 'Estados Unidos',
-            'opcao_d' => 'Brasil',
+            'opcao_d' => 'Neum País controla',
             'resposta_correta' => 'd',
             'imagem' => null,
             'pontos' => 1,
         ]);
 
         Pergunta::create([
-            'texto' => 'Qual o nome do vulcão mais ativo do mundo ?',
-            'opcao_a' => 'Kilauea',
-            'opcao_b' => 'Etna',
-            'opcao_c' => 'Merapi',
-            'opcao_d' => 'Vulção Amazonas',
+            'texto' => 'Quem criou o BTC',
+            'opcao_a' => 'Satoshi Nakamoto',
+            'opcao_b' => 'Hiroshi',
+            'opcao_c' => 'Akira',
+            'opcao_d' => 'Yumi',
             'resposta_correta' => 'A',
             'imagem' => null,
             'pontos' => 1,
         ]);
 
         Pergunta::create([
-            'texto' => 'Qual é o vulcão mais antigo do mundo?',
-            'opcao_a' => 'Kilauea',
-            'opcao_b' => 'Vucão Amazonas',
-            'opcao_c' => 'Luzon, (Filipinas)',
-            'opcao_d' => 'Popocatépetl (México)',
+            'texto' => 'Qual é a tecnologia que sustenta o Bitcoin?',
+            'opcao_a' => 'Smart Chain',
+            'opcao_b' => 'Network',
+            'opcao_c' => 'Chain',
+            'opcao_d' => 'blockchain',
+            'resposta_correta' => 'A',
+            'imagem' => null,
+            'pontos' => 1,
+        ]);
+
+        Pergunta::create([
+            'texto' => 'Quando o Bitcoin foi lançado?',
+            'opcao_a' => '2009',
+            'opcao_b' => '2001',
+            'opcao_c' => '2007',
+            'opcao_d' => '2010',
+            'resposta_correta' => 'd',
+            'imagem' => null,
+            'pontos' => 1,
+        ]);
+
+        Pergunta::create([
+            'texto' => 'Onde o Bitcoin é armazenado??',
+            'opcao_a' => 'wallets',
+            'opcao_b' => 'Pendraver',
+            'opcao_c' => 'Celular',
+            'opcao_d' => 'Cloders',
+            'resposta_correta' => 'A',
+            'imagem' => null,
+            'pontos' => 1,
+        ]);
+
+        Pergunta::create([
+            'texto' => 'Governo pode tomar Cripto moeda de alguma pessoa?',
+            'opcao_a' => 'Sim',
+            'opcao_b' => 'Sim sobre pressão',
+            'opcao_c' => 'Sim com ordem do governo',
+            'opcao_d' => 'Não',
+            'resposta_correta' => 'A',
+            'imagem' => null,
+            'pontos' => 1,
+        ]);
+
+        Pergunta::create([
+            'texto' => 'Qual a principal rede que sustenta as cripto moeda?',
+            'opcao_a' => 'blockchain',
+            'opcao_b' => 'Network',
+            'opcao_c' => 'Smart Chain',
+            'opcao_d' => 'Chain',
             'resposta_correta' => 'A',
             'imagem' => null,
             'pontos' => 1,
         ]);
     }
+
 }
 
 
